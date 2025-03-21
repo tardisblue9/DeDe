@@ -1,5 +1,5 @@
 # DeDe -- CVPR 2025
-## Repository of paper 'DeDe: Detecting Backdoor Samples for SSL Encoders via Decoders' 
+## Repository of paper '[DeDe: Detecting Backdoor Samples for SSL Encoders via Decoders](https://arxiv.org/abs/2411.16154)' 
 
 To run comparisons or initiate a victim encoder, you will need to download [DRUPE](https://github.com/Gwinhen/DRUPE), [DECREE](https://github.com/GiantSeaweed/DECREE), [CTRL](https://github.com/meet-cjli/CTRL), [BadCLIP](https://github.com/LiangSiyuan21/BadCLIP), [ASSET](https://github.com/reds-lab/ASSET) from their public repositories respectively. BTW, BadEncoder is implemented by DRUPE. 
 
