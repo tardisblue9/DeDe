@@ -15,7 +15,7 @@ The downstream performance is evaluated by running:
 Here, `--poison_rate` is used to control the downstream training dataset. It is chosen as 0.0 for a clean training dataset. 
 
 You can always choose to train your own victim encoder or obtain it from the above-mentioned repositories. DeDe is non-invasive in both phases of training and testing. You can try different parameters to get the best results. 
-We provide a victim encoder trained by DRUPE(a stealthy backdoor attack) and a DeDe model in the following links: TODO (uploading).
+We provide a victim encoder trained by BadEncoder and DRUPE(stealthy backdoor attack) and several DeDe models trained on corresponding victim encoders in the following links: [https://drive.google.com/drive/folders/1tzTtWeH6MkuSegsMpBBCXiKpars93CTl?usp=sharing](https://drive.google.com/drive/folders/1tzTtWeH6MkuSegsMpBBCXiKpars93CTl?usp=sharing).
 
 If you find it useful, please cite:
 TODO
