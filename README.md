@@ -18,9 +18,10 @@ You can always choose to train your own victim encoder or obtain it from the abo
 We provide a victim encoder trained by BadEncoder and DRUPE(stealthy backdoor attack) and several DeDe models trained on corresponding victim encoders in the following links: [https://drive.google.com/drive/folders/1tzTtWeH6MkuSegsMpBBCXiKpars93CTl?usp=sharing](https://drive.google.com/drive/folders/1tzTtWeH6MkuSegsMpBBCXiKpars93CTl?usp=sharing).
 
 If you find it useful, please cite:
-> @inproceedings{hou2025dede,
->        title={DeDe: Detecting Backdoor Samples for SSL Encoders via Decoders},
->       author={Hou, Sizai and Li, Songze and Yao, Duanyi},
->        booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
->        year={2025}
->      }
+> @inproceedings{ </br>
+> hou2025dede, </br>
+> title={DeDe: Detecting Backdoor Samples for SSL Encoders via Decoders}, </br>
+> author={Hou, Sizai and Li, Songze and Yao, Duanyi}, </br>
+> booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, </br>
+> year={2025} </br>
+>  }
