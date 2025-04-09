@@ -69,7 +69,7 @@ def train_decoder_ood(backdoored_encoder, model, ood_data_loader, optimizer, arg
     total_loss, total_num, train_bar = 0.0, 0, tqdm(ood_data_loader)
     for batch in train_bar:
         img = batch[0]
-        z_img = 5*torch.ones(img.shape).cuda() # torch.rand(img.shape).cuda() # mod
+        z_img = torch.ones(img.shape).cuda() # torch.rand(img.shape).cuda() # mod for ctrl. Comment this line for other attacks
         img = img.cuda()
         feature_raw = backdoored_encoder(img)
         predicted_img, mask = model(img, feature_raw)
